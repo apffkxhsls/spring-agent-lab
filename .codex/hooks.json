@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -File C:/Users/LG/IdeaProjects/spring-agent-lab/.codex/hooks/stop-architecture.ps1",
+            "timeout": 300,
+            "statusMessage": "Checking ArchitectureRulesTest"
+          }
+        ]
+      }
+    ]
+  }
+}
